@@ -38,4 +38,5 @@
   combdatamelt <- melt(combdata,id.vars= c("subject","activity"))
   combdatadcast <- dcast(combdatamelt, subject+activity ~ variable, mean)
     
-  write.csv(combdatadcast, file="tidy.txt")
+  ##write.csv(combdatadcast, file="tidy.txt")
+  write.table(combdatadcast, file="tidy.txt")
