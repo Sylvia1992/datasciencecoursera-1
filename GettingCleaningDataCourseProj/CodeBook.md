@@ -1,7 +1,7 @@
 ## Coursera Data Science Getting and Cleaning Data : Course Project 2 - Code Book
 This code book describes the variables and the data 
 
-Activity Labels:
+###Activity Labels:
 =================
 1 WALKING
 2 WALKING_UPSTAIRS
@@ -10,7 +10,7 @@ Activity Labels:
 5 STANDING
 6 LAYING
 
-Feature Selection 
+###Feature Selection 
 =================
 The complete list of variables of each feature vector is as below:
 1 tBodyAcc-mean()-X
