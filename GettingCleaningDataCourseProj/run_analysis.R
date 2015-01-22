@@ -35,7 +35,9 @@
   colnames(combsub) <- "subject"
   combdata <- cbind(combsub, combdata)
   
+  write.table(combdata,file="tidylabled.txt")
+  
   combdatamelt <- melt(combdata,id.vars= c("subject","activity"))
   combdatadcast <- dcast(combdatamelt, subject+activity ~ variable, mean)
     
-  write.table(combdatadcast, file="tidy.txt")
+  write.table(combdatadcast, file="tidyaverage.txt")
