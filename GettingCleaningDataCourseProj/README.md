@@ -2,10 +2,10 @@
 This repository has been created as a part of the course project 2 work of the "Getting and Cleaning data" course being offered by Coursera.The purpose of this project is to demonstrate the process of collection, processing, and cleaning of a data set. The script prepares a tidy data set to be used for later analysis. 
 
 Following files can be found in this directory:
-1) tidy data sets named tidylabled.txt and tidyaverage.txt
-2) a code book titled CodeBook.md which describes the variables and the data\
-3) following link is referred for the data source
-4) a script to generate the tidy data set from the raw data. This file is named as run_analysis.R. A brief description of the script is given below:
+* tidy data sets named tidylabled.txt and tidyaverage.txt
+* a code book titled CodeBook.md which describes the variables and the data
+* following link is referred for the data source
+* a script to generate the tidy data set from the raw data. This file is named as run_analysis.R. A brief description of the script is given below:
 	* Merges the training and the test sets to create one data set tidy.txt. 
 	* Extracts only the measurements on the mean and standard deviation for each measurement.
 	* Uses descriptive activity names to name the activities in the data set
